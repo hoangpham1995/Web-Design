@@ -1,0 +1,327 @@
+*{margin: 0; padding: 0;} 
+body,html{
+        font-family: 'Roboto', sans-serif;
+        height: 100%;
+    width: 100%;
+
+}
+.nav-link.active {
+    color: white!important;
+}
+.menuright{
+    FONT-SIZE: 14PX;
+    margin-right: 30px;
+
+}
+.menuright li a{
+    padding-left: 20px;
+    color: #a7c44c!important;
+}
+.menutrong{
+    padding-top: 20px;
+}
+.logo{
+    color: white!important;
+    margin-left: 30px;
+
+}
+.hinhanh{
+    background-image: url('img/intro-bg.jpg');
+    height: 670px;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 90%;
+}
+.overlow{
+    background-color: rgba(0,0,0,0.40);
+    height: 100%;
+}
+.thaydoimenu{
+    background-color: transparent;
+}
+.header{
+    color: white;
+
+}
+.text-intro{
+        margin-top: 40%;
+}
+.text-intro a {
+    margin-top: 20px;
+    background-color: #a7c44c;
+    color: white;
+    border-radius: 20px 0 20px 0px;
+    font-size: 15px;
+        
+}
+.story,.projects,.contact{
+     background: #f6f6f6;
+     padding-top: 100px;
+     padding-bottom: 100px;
+
+}
+.hinhanhabout{
+    border-radius: 150px 0 150px 0px;
+    box-shadow: -20px 0 #a7c44c;
+    margin-bottom: 20px;
+}
+.section-title h2{
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 80px;
+}
+.section-title h2:after{
+    content: "";
+    width: 80px;
+    background: #a7c44c;
+    height: 4px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -50px;
+}
+.section-titles h2{
+     position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    color: white;
+}
+.section-titles h2:after{
+    content: "";
+    width: 80px;
+    background: white;
+    height: 4px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -50px;
+  
+}
+.section-titles p{
+    color: white;
+}
+
+
+.about-text h3{
+    font-size: 20px;
+}
+.about-text p{
+    color: #777;
+    margin: 15px 0 30px;
+}
+.gicungdc{
+    margin-top: -60px;
+    color: #777;
+        margin-bottom: 80px;
+   
+}
+.hinhanh1{
+    border-radius: 75px 0 75px 0;
+    box-shadow: 20px 0 #a7c44c;
+    margin-bottom: 20px;
+}
+.services{
+     padding-top: 100px;
+     padding-bottom: 100px;
+}
+.service h3 {
+    font-size: 20px;
+}
+.service p{
+    color: #777;
+}
+.categories{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.cat{
+    float: left;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+        margin-top: -30px;
+}
+.cat  li a{
+    
+    border-radius: 10px 0px 10px 0px ;
+    border:2px solid #a7c44c;  
+    padding: 10px;
+    margin-right:20px; 
+    text-transform: uppercase;
+    color: #a7c44c;
+}
+.cat  li a:hover{
+        background: #a7c44c;
+    color: #fff;
+    text-decoration: none;
+
+}
+.cat li a.active {
+    background: #a7c44c;
+    color: #fff;
+}
+.hinhanh2{
+    border-radius: 0px 50px 0px 50px;
+    width: 100%;
+
+}
+.hinhanh3{
+    border-radius: 50px 0px 50px 0px;
+    box-shadow: 15px 0 #96b044;
+    width: 80%;
+}
+.service{
+    padding-bottom: 29px;
+    position: relative;
+
+ 
+}
+.hover-text{
+    position: absolute;
+   top: 0;
+       width: 92%;
+    height: 89%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    color: black;
+    transition: all 0.5s;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 0 50px 0 50px;
+    font-size: 20px;
+
+   
+}
+.teamm h4 {
+    padding-top: 20px;
+}
+.hover-text:hover{
+    opacity: 1;
+    
+    
+}
+.service .hover-text>h4{
+    transition: all 0.3s;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    text-transform: uppercase;
+        
+}
+.teamjmg{
+    background-image: url('img/team-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+
+}
+.teamblackgroup{
+    background-color: #a7c44ccc;
+    height: 700px;
+}
+.teamm{
+    padding-top:50px;
+    color: white;
+}
+.contacts h3{
+    font-size: 20px;
+
+}
+.contact-item {
+    padding-top: 20px;
+}
+.contact-item span {
+    text-transform: uppercase;
+    color: #aaa;
+        margin-bottom: 6px;
+    display: inline-block;
+        
+}
+.contact-item p{
+    color:  #777;
+    font-size: 15px;
+}
+.formss{
+        padding-top: 50px;
+}
+.formss button{
+    background-color: #a7c44c;
+    border-radius: 15px 0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.footer{
+    background-color: #333;
+    height: 200px;
+    padding: 50px 0 20px 0;
+
+}
+.footer p{
+    color: #777;
+}
+
+.social ul li {
+    justify-content: center;
+    display: inline-flex;
+    font-size: 25px;
+       padding: 0 20px 25px;
+}
+.social ul li a {
+    color: #a7c44c;
+}
+.social ul li a:hover{
+    color: white;
+}
+.navbar.mauden{
+    background-color: #333;
+}
+button.navbar-toggler.hidden-sm-up.float-xs-right.collapsed {
+    background-color: #a7c44c;
+}
+button.navbar-toggler.hidden-sm-up.float-xs-right.collapsed:focus {
+    background-color: #a7c44c;
+}
+
+@media  (max-width: 576px){
+    *{}
+        .hover-text {
+    width: 93%;
+    height: 90%;
+    }
+    .teamjmg {
+    height: 1500px;
+    }
+    .teamblackgroup {
+    background-color: #a7c44ccc;
+    height: 1500px;
+    }
+    img.hinhanh3.img-fluid {
+    width: 60%;
+}
+  
+}
+@media  (max-width: 320px){
+    *{}
+    .footer{
+        height: 260px;
+    }
+}
+
+
+
+
+
+
+
+
+
+   
+
